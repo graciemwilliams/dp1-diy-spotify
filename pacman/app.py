@@ -42,8 +42,9 @@ def s3_handler(event):
     TITLE = data["title"]
     ALBUM = data["album"]
     ARTIST = data["artist"]
-    GENRE = data["genre"]
     YEAR = data["year"]
+    GENRE = data["genre"]
+    
 
     # get the unique ID for the bundle to build the mp3 and jpg urls
     # you get 5 data points in each new JSON file that arrives, but
